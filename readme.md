@@ -1,10 +1,13 @@
 # AWS Batch for Video to Frames Processing
 
-Pre-requisites:
-Local machine must have the AWS CLI configured with sufficient permissions to ECS Container Repository (ECR)
-Docker command line tools
-Working knowledge of Docker, Python, FFMPEG
+Docker image based on https://hub.docker.com/r/jrottenberg/ffmpeg/
+Modified to use AWS Amazon Linux and other Python and command line tools for AWS capabilities
 
+Pre-requisites:
+
+* Local machine must have the AWS CLI configured with sufficient permissions to * ECS Container Repository (ECR)
+* Docker command line tools
+* Working knowledge of Docker, Python, FFMPEG
 
 ## Storage in AWS
 
